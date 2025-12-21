@@ -1,0 +1,12 @@
+CREATE TABLE Customers
+(
+	CustomerID INT IDENTITY(1,1) PRIMARY KEY,
+	FullName NVARCHAR (100) NOT NULL,
+	Email NVARCHAR(100) NOT NULL UNIQUE,
+	Password NVARCHAR(100) NOT NULL,
+	IDNumber NVARCHAR(20) NOT NULL,
+	Address NVARCHAR(200),
+	ContactNumber NVARCHAR(20),
+	SecurityQuestion NVARCHAR(200),
+	SecurityAnswer NVARCHAR(200)
+);
