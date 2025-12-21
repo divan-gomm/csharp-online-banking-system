@@ -19,7 +19,7 @@ It is a **web-based banking system** that allows customers to register, manage a
 - Session-based access control
 
 ## Architecture
-- **Web Interface:** ASP.NET Web Forms (`.aspx`, `.aspx.cs`)
+- **Web Interface:** ASP.NET Web Forms (.aspx, .aspx.cs)
 - **Web Service Layer:** ASMX service handling business logic and database operations
 - **Data Layer:** Direct SQL queries and stored procedures
 - **Database:** SQL Server
